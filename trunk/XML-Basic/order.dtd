@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT order (id,customer,address,taxed,lineitems)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT customer (#PCDATA)>
+<!ELEMENT address (#PCDATA) >
+<!ELEMENT taxed EMPTY>
+<!ELEMENT lineitems (item+)>
+<!ELEMENT item (itemid,qty,amount)>
+<!ELEMENT itemid (#PCDATA)>
+<!ELEMENT qty (#PCDATA)>
+<!ELEMENT amount (#PCDATA)>

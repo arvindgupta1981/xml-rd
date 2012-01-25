@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE order SYSTEM "order.dtd">
+<order>
+	<id>#1000$</id>
+	<customer>Arvind gupta</customer>
+	<address>ABC Indirapuram</address>
+	<taxed/>
+	<lineItems>
+		<item>
+			<itemid>X1</itemid>
+			<qty>10</qty>
+			<amount>1000</amount>
+		</item>
+		<item>
+			<itemid>X2</itemid>
+			<qty>30</qty>
+			<amount>3300</amount>
+		</item>
+	</lineItems>
+</order>
