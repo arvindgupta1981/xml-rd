@@ -5,7 +5,7 @@
 	<customer>Arvind gupta</customer>
 	<address>ABC Indirapuram</address>
 	<taxed/>
-	<lineItems>
+	<lineitems>
 		<item>
 			<itemid>X1</itemid>
 			<qty>10</qty>
@@ -16,5 +16,5 @@
 			<qty>30</qty>
 			<amount>3300</amount>
 		</item>
-	</lineItems>
+	</lineitems>
 </order>
